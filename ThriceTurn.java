@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ThriceTurn{
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in); //declare variables that are needed in all 3 rounds
-		int tally = 0;
+		double tally = 0;
 		int tripletWorth = 0;
 
 
@@ -70,7 +70,7 @@ public class ThriceTurn{
 			System.out.println("Dice one: " + diceOne);
 			System.out.println("Dice two: " + diceTwo);
 			System.out.println("Dice three: " + diceThree);
-			int additive = 1; //how much to add based on the roll count
+			double additive = 1.0; //how much to add based on the roll count
 			if (iRoundThree != 1){
 				for (int rollCount = 1; rollCount < iRoundThree; rollCount++){
 				additive = additive * 3;
