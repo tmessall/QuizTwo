@@ -4,6 +4,6 @@
 
 ## Problem 1: Thrice Simulation (finished at home)
 
-## Problem 2: Simple Cipher
+## Problem 2: Simple Cipher (finished at home)
 
 ## Problem 3: Caeser cipher
